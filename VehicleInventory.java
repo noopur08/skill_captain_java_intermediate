@@ -31,7 +31,7 @@ class Car extends Vehicle {
         this.fuelType = fuelType;
     }
 
-    @Override
+ 
     public void displayDetails() {
         System.out.println("Car Details:");
         System.out.println("Make: " + make);
@@ -58,7 +58,6 @@ class Motorcycle extends Vehicle {
         this.engineCapacity = engineCapacity;
     }
 
-    @Override
     public void displayDetails() 
     {
         System.out.println("Motorcycle Details:");
